@@ -1,0 +1,146 @@
+@media (max-width: 1516px) {
+    .brand-container {
+        max-width: 1200px;
+    }
+    .brand-map__select {
+        max-width: 30%;
+    }
+    .brand-map__map {
+        max-width: 69%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .brand-container {
+        max-width: 940px;
+    }
+    .brand-logos__content div {
+        top: 60%;
+    }
+}
+
+@media (max-width: 992px) {
+    .brand-container {
+        max-width: 760px;
+    }
+    .brand-banner h2 {
+        font-size: 40px;
+    }
+    .brand-banner .brand-container {
+        height: 355px;
+    }
+    .brand-wrap__item h3 {
+        left: 15px;
+        top: 15px;
+    }
+    .brand-wrap__item svg {
+        bottom: 15px;
+        right: 15px;
+    }
+    .brand-logos__content h2, .brand-slider .swiper-slide h2 {
+        font-size: 30px;
+    }
+    .brand-logos__mvf,
+    .brand-logos__img {
+        max-width: 65px;
+    }
+}
+
+@media (max-width: 768px) {
+    .brand-container {
+        max-width: 540px;
+    }
+    .brand-logos__content h2 {
+        font-size: 25px;
+    }
+    .brand-banner h2 {
+        font-size: 30px;
+    }
+    .brand-banner .brand-container {
+        height: 250px;
+        padding-top: 30px;
+    }
+    .brand-wrap__item h3 {
+        font-size: 25px;
+    }
+    .brand-map__content {
+        flex-direction: column;
+    }
+    .brand-map__select,
+    .brand-map__map {
+        max-width: none;
+    }
+    .brand-map__map {
+        height: 400px;
+    }
+    .brand-map__content {
+        height: auto;
+    }
+    .brand-logos__pc,
+    .brand-slider__pc {
+        display: none;
+    }
+    .brand-logos__mob,
+    .brand-slider__mob {
+        display: block;
+    }
+    .brand-slider .swiper-slide div {
+        text-align: center;
+        transform: translate(-50%, 0);
+        left: 50%;
+        top: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .brand-container {
+        max-width: none;
+        padding: 0 15px;
+    }
+    .brand-logos__content {
+        flex-direction: column;
+        padding-top: 34px;
+    }
+    .brand-logos__content div {
+        margin: 25px 0;
+        position: static;
+        transform: none;
+        text-align: center;
+    }
+    .brand-logos__content h2, .brand-slider .swiper-slide h2 {
+        font-size: 22px;
+    }
+    .brand-logos__content p, .brand-slider .swiper-slide p {
+        font-size: 16px;
+    }
+    .brand-logos__img {
+        bottom: 20px;
+        top: auto;
+    }
+    .brand-logos__mvf {
+        position: static;
+        text-align: center;
+        margin: auto;
+        transform: none;
+    }
+    .brand-banner h2 {
+        font-size: 22px;
+    }
+    .brand-wrap__item {
+        max-width: none;
+    }
+    .brand-video h2, .brand-map h2 {
+        font-size: 20px;
+    }
+    .brand-video__play {
+        width: 70px;
+    }
+    .brand-logos__content {
+        background-color: #060D23;
+    }
+    .brand-slider .swiper-slide div {
+        width: 100%;
+        max-width: 328px;
+    }
+}
+
